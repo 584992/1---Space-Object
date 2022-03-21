@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\1 - Space Object\1 - Space Object.csproj" />
+    <ProjectReference Include="..\2 - Space Sim\2 - Space Sim.csproj" />
+  </ItemGroup>
+
+</Project>
